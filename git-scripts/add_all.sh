@@ -11,7 +11,7 @@ if [ "$CONT" == "y" ] || [ "$CONT" == "yes" ]; then
 
     # Checks if $1 is a null-string
     if [ -z "$1" ]; then
-        message="update most recent changes"
+        message="updates and modifications"
     else
         message="$1"
     fi
